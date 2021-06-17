@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Iven's tecnologies</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+        <div class="hamburguer">
+          <div class="line" id="line1"></div>
+          <div class="line" id="line2"></div>
+          <div class="line" id="line3"></div>
+          <span>fechar</span>
+        </div>  
+
+        <header id="home">
+            <div class="img-wrapper">
+                <img src="imagens/home2.jpg" alt="">
+            </div>
+            <div class="banner">
+                <h1>Ivan's Tecnologies</h1>
+                <p>The best for your company</p>
+                <button>Saiba mais</button>
+            </div>
+        </header>
+
+        <aside class="sidebar">
+          <nav>
+            <ul class="menu">
+              <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+              <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+              <li class="menu-item"><a href="#contato" class="menu-link">Cadastro</a></li>
+              <li class="menu-item"><a href="#Produtos" class="menu-link">Produtos</a></li>
+            </ul>
+          </nav>
+        </aside>
+
+            <section class="sessao-conhecimentos" id="conhecimentos">
+          <div class="sessao-header">
+            <h1>Conhecimentos</h1>
+          </div>
+          <div class="conhecimentos">
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                
+                <h3>Computador</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Computador é um conjunto de componentes eletrônicos (máquina) capaz de executar variados tipos de algoritmos e tratamento de informações (processamento de dados). Um computador pode possuir inúmeros atributos.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                
+                <h3>Servidor</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Um servidor é um computador equipado com um ou mais processadores, bancos de memória, portas de comunicação, softwares e, ocasionalmente, algum sistema para armazenamento de dados, como hard disks internos ou memórias SSD.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                
+                <h3>Monitor</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>O monitor é um dispositivo de saída para o computador que mostra em sua tela os resultados de suas operações. O monitor é conhecido como a tela do computador e é um periférico que se conecta ao computador para poder visualizar as ações e processos executados.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+  
+                <h3>Memoria</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>A memória é a capacidade de adquirir, armazenar e recuperar (evocar) informações disponíveis, seja internamente, no cérebro (memória biológica[2]), seja externamente, em dispositivos artificiais (memória artificial).
+                </p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                
+                <h3>HD</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>A sigla HD pode referir-se a dois significados distintos: "High Definition" ou "Hard Disk". O primeiro significa "Alta Definição" e é utilizado na maioria dos casos quando se refere à qualidade de imagem de uma aparelho de TV</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                
+                <h3>Processador</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>O processador é o componente mais importante do computador, ele é o cérebro da sua máquina. É ele que transforma os dados em programas que você utiliza. A velocidade na qual seu sistema executa programas, carrega páginas e faz downloads é em parte.</p>
+              </div>
+            </div>
+            <div class="conhecimentos-img-wrapper">
+              <video width="350" controls>
+                <source src="imagens/secund.mp4" type="video/mp4">
+                <source src="mov_bbb.ogg" type="video/ogg">
+                Your browser does not support HTML video.
+              </video>
+            </div>
+          </div>
+        </section>
+
+        <section class="sessao-contato" id="contato"><!--contato como nome da classe mas referenciado como cadastro-->
+          <div class="contato-wrapper">
+            <div class="contato-left"></div>
+            <div class="contato-right">
+              <h1>Cadastro</h1>
+              <form>
+                <div class="input-group">
+                  <input type="text" class="field" id="nome">
+                  <label for="nome" class="field-label">Nome</label>
+                </div>
+                <div class="input-group">
+                  <input type="text" class="field" id="email">
+                  <label for="email" class="field-label">E-mail</label>
+                </div>
+                <div class="input-group">
+                  <textarea class="field" id="mensagem"></textarea>
+                  <label for="mensagem" class="field-label">Mensagem</label>
+                </div>
+                <button type="submit" class="btn btn-submit">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <section class="sessao-orcamento" id="Produtos"><!--orcamento como nome da classe mas referenciado como Produtos-->
+          <div class="orcamento-wrapper">
+            <h1>Produtos</h1>
+            <form>
+              <label for="js">Precisa de computador</label>
+              <input type="checkbox" name="js" id="js">
+              <label for="js">Precisa de um monitor</label>
+              <input type="checkbox" name="js" id="js">
+              <label for="js">Precisa de um servidor</label>
+              <input type="checkbox" name="js" id="js">
+              <label for="js">Precisa de uma memória</label>
+              <input type="checkbox" name="js" id="js">
+              <label for="js">Precisa de um HD</label>
+              <input type="checkbox" name="js" id="js">
+              <label for="js">Precisa de um processador</label>
+              <input type="checkbox" name="js" id="js">
+              <label id="preco">Confirmação:</label>
+              <button class="btn btn-orcamento" type="submit">Enviar</button>
+            </form>
+          </div>
+        </section>
+
+        <footer>
+          <div class="footer-content">
+            <p>
+              Ivan's Tecnologies (Mindelo/São vicente/Cabo Verde)
+            </p>
+            <p>
+              5998348
+            </p>
+            <div class="social-list">
+              <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+        <a href="#home" id="link-topo">
+          <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+   </body>
+
+   <script src="script.js"></script>
+</html>
